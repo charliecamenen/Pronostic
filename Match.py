@@ -3,4 +3,8 @@ import Equipe
 
 class Match:
 
-    equipe1 = Equipe()
+    def __init__(self):
+        self.lst_input = []
+
+    def setLstInput(self):
+        self.lst_input = []
